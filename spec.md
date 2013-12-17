@@ -15,7 +15,7 @@ An alphanumerical string, wrapped in phrase marks.
 ### Array
 A basic array.
 
-	arr arrayvarthingy = [1,2,3,4,5]
+	int[] arrayvarthingy = [1,2,3,4,5]
 ### Integer
 Non-decimal number
 
