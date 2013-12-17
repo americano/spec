@@ -1,3 +1,5 @@
 # Todo
-- [ ] Complete variable example
-- [ ] Preproccessing
+- Complete variable example
+- Preproccessing
+
+## Done
