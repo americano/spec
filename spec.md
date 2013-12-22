@@ -1,5 +1,7 @@
 #Core spec
+
 ## Hello World
+
 ### Braced
 	def Main {
 		print("Hello World!");
@@ -9,20 +11,23 @@
 		print "Hello World!"
 
 ## Variable declaration
-### Weakly
+
+### Weakly typed
+
 #### String
-x  = "Hello World!"
+    x  = "Hello World!"
 
 #### Integer
-x = 5
+    x = 5
 
 #### Floating point number
-x = 2.5
+    x = 2.5
 
 #### Arrays
-x = [1, 3, 5.5]
+    x = [1, 3, 5.5]
 
 ### Strongly typed
+
 #### Integer
 Non-decimal number
 
