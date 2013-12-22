@@ -42,25 +42,28 @@ A basic function.
 
 **Declare w/ braces:**
 
-    func myFunction (arg,etc) {
-        return lol;
+    myFunction(str s, int var){
+    	print("Hi");
+    	return s;
     }
 
+
 **Declare w/ cleanliness:**
 
-    func myFunction arg,etc
-        return lol
+    myFunction(str "lol", int var)
+    	print("Hi")
+    	return s
 
 ### Execute a function
-Using a function.
+Run a function
 
-**Declare w/ braces:**
+**Declare w/o cleanliness**
 
-    myFunction("lol",var);
+    x = foo(y);
 
-**Declare w/ cleanliness:**
+**Declare w/ cleanliness**
 
-    myFunction "lol",var
+    x = foo(y)
 
 ### Declare a core procedure
 
@@ -73,4 +76,4 @@ Using a function.
 **Declare w/ cleanliness:**
 
     init MyProcedure
-        print "Hi!"
+        print("Hi!")
