@@ -13,39 +13,22 @@ The specification within this document has a relevant `README.md` for informatio
 		print "Hello World!"
 
 ## Variable declaration
-
-### Weakly typed
-
-#### String
-    x  = "Hello World!"
-
-#### Integer
-    x = 5
-
-#### Floating point number
-    x = 2.5
-
-#### Arrays
-    x = [1, 3, 5.5]
-
-### Strongly typed
-
-#### Integer
+### Integer
 Non-decimal number
 
 	int integervarthingy = 3
 	
-#### Float
+### Float
 Decimal number
 
 	float floatvarthingy = 3.5
 	
-#### String
+### String
 An alphanumerical string, wrapped in phrase marks.
 
 	str stringvarthingy = "Stringy Thingy" 
 	
-#### Array
+### Array
 A basic array.
 
 	int[] arrayvarthingy = [1,2,3,4,5]
