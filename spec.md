@@ -5,11 +5,11 @@ The specification within this document has a relevant `README.md` for informatio
 ## Hello World
 
 ### Braced
-	def Main {
+	init Main {
 		print("Hello World!");
 	}
 ### Cleansed
-	def Main
+	init Main
 		print "Hello World!"
 
 ## Variable declaration
