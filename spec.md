@@ -42,7 +42,7 @@ A basic function.
 
 **Declare w/ braces:**
 
-    myFunction(str s, int var){
+    str func myFunction(str s, int var){
     	print("Hi");
     	return s;
     }
@@ -50,10 +50,11 @@ A basic function.
 
 **Declare w/ cleanliness:**
 
-    myFunction(str "lol", int var)
+    str func myFunction(str "lol", int var)
     	print("Hi")
     	return s
 
+Note that the type declaration in-front of the function name is the type of variable returned, if none is written then void is assumed. 
 ### Execute a function
 Run a function
 
