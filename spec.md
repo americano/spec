@@ -52,4 +52,42 @@ A basic array.
 	
 The array is singularly typed: an array of just int's, just str's, etc.
 
+## Functions and Core procedures
 
+### Declare a function
+A basic function.
+
+**Declare w/ braces:**
+
+    func myFunction (arg,etc) {
+        return lol;
+    }
+
+**Declare w/ cleanliness:**
+
+    func myFunction arg,etc
+        return lol
+
+### Execute a function
+Using a function.
+
+**Declare w/ braces:**
+
+    myFunction("lol",var);
+
+**Declare w/ cleanliness:**
+
+    myFunction "lol",var
+
+### Declare a core procedure
+
+**Declare w/ braces:**
+
+    init MyProcedure {
+        print("Hi")
+    }
+
+**Declare w/ cleanliness:**
+
+    init MyProcedure
+        print "Hi!"
