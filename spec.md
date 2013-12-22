@@ -1,5 +1,7 @@
 #Core spec
 
+The specification within this document has a relevant `README.md` for information about this file and surrounding repository. Things needing to be done are in `_Todo.md`, and this file uses the License within `LICENSE.md`.
+
 ## Hello World
 
 ### Braced
