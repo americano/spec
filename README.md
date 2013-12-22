@@ -1,4 +1,4 @@
 spec
 ====
 
-Language Spec
+Language Spec of the Americano Language
