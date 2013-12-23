@@ -58,7 +58,7 @@ Note that the type declaration in-front of the function name is the type of vari
 ### Execute a function
 Run a function
 
-**Declare w/o cleanliness**
+**Declare w/ braces**
 
     x = foo(y);
 
@@ -78,3 +78,15 @@ Run a function
 
     init MyProcedure
         print("Hi!")
+
+## Preprocessing
+
+While Americano itself is a preprocessor, the language contains a unique two-layer preprocessing system, designed for making Americano remain an incredibly flexible language, despite not having an integreated processor-linked compiler.
+
+### Layer 1
+
+The first preprocessing layer is actually your normal code, nothing to note about this...
+
+### Layer 2
+
+Layer 2 is parsed _just-before-native-compiling_, taking advantage of the ability to know processor, OS, and other device unique data. This collects the data during native compilation. 
