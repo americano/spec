@@ -58,7 +58,7 @@ Note that the type declaration in-front of the function name is the type of vari
 ### Execute a function
 Run a function
 
-**Declare w/o cleanliness**
+**Declare w/ braces**
 
     x = foo(y);
 
