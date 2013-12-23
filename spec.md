@@ -13,39 +13,22 @@ The specification within this document has a relevant `README.md` for informatio
 		print "Hello World!"
 
 ## Variable declaration
-
-### Weakly typed
-
-#### String
-    x  = "Hello World!"
-
-#### Integer
-    x = 5
-
-#### Floating point number
-    x = 2.5
-
-#### Arrays
-    x = [1, 3, 5.5]
-
-### Strongly typed
-
-#### Integer
+### Integer
 Non-decimal number
 
 	int integervarthingy = 3
 	
-#### Float
+### Float
 Decimal number
 
 	float floatvarthingy = 3.5
 	
-#### String
+### String
 An alphanumerical string, wrapped in phrase marks.
 
 	str stringvarthingy = "Stringy Thingy" 
 	
-#### Array
+### Array
 A basic array.
 
 	int[] arrayvarthingy = [1,2,3,4,5]
@@ -59,25 +42,29 @@ A basic function.
 
 **Declare w/ braces:**
 
-    func myFunction (arg,etc) {
-        return lol;
+    str func myFunction(str s, int var){
+    	print("Hi");
+    	return s;
     }
 
+
 **Declare w/ cleanliness:**
 
-    func myFunction arg,etc
-        return lol
+    str func myFunction(str "lol", int var)
+    	print("Hi")
+    	return s
 
+Note that the type declaration in-front of the function name is the type of variable returned, if none is written then void is assumed. 
 ### Execute a function
-Using a function.
+Run a function
 
-**Declare w/ braces:**
+**Declare w/o cleanliness**
 
-    myFunction("lol",var);
+    x = foo(y);
 
-**Declare w/ cleanliness:**
+**Declare w/ cleanliness**
 
-    myFunction "lol",var
+    x = foo(y)
 
 ### Declare a core procedure
 
@@ -90,4 +77,4 @@ Using a function.
 **Declare w/ cleanliness:**
 
     init MyProcedure
-        print "Hi!"
+        print("Hi!")
