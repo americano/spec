@@ -1,6 +1,4 @@
 # Todo
-- Complete variable example
-- Preproccessing
-
-## Done
-- Nothing...
+- [ ] Complete variable example
+- [ ] Preproccessing
+- [ ] Object Orientated Programming
