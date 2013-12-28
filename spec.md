@@ -54,7 +54,7 @@ A basic function.
     	print("Hi")
     	return s
 
-Note that the type declaration in-front of the function name is the type of variable returned, if none is written then void is assumed. 
+Note that the type declaration in-front of the function name is the type of variable returned, if none is written then `void` (a returnless function) is assumed. 
 ### Execute a function
 Run a function
 
