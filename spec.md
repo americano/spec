@@ -89,4 +89,30 @@ The first preprocessing layer is actually your normal code, nothing to note abou
 
 ### Layer 2
 
-Layer 2 is parsed _just-before-native-compiling_, taking advantage of the ability to know processor, OS, and other device unique data. This collects the data during native compilation. 
+Layer 2 is parsed _just-before-native-compiling_, taking advantage of the ability to know processor, OS, and other device unique data. This collects the data during native compilation.
+
+## Importing
+
+To import an internal library(included with americano), do:
+
+    import foo
+
+**Or:**
+
+    import("foo");
+    
+To import part of an internal library, do:
+
+    import foo.bar
+
+**Or:**
+
+    import("foo.bar");
+
+To access an internal library, but would like to use a different name, do:
+
+    bar = import foo
+
+**Or:**
+
+    bar = import("foo");
