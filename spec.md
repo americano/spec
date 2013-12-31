@@ -91,6 +91,18 @@ The first preprocessing layer is actually your normal code, nothing to note abou
 
 Layer 2 is parsed _just-before-native-compiling_, taking advantage of the ability to know processor, OS, and other device unique data. This collects the data during native compilation.
 
+This is done via a primitive syntax with indents.
+**Note:** Use ">" to write to final script.
+
+Eg.:
+
+	#if os.type = "win"
+    #	> print "Your OS is rubbish"
+    #elseif os.class = true
+    #	> print "Hurray! Nix."
+    #else
+    #	> print "Compiler is clueless. :( \n At least you aren't using windows."
+
 ## Importing
 
 To import an internal library(included with americano), do:
