@@ -7,10 +7,10 @@ Argument parsing, for defining options during command-line execution of a progra
 Parse argument *bob* **via:**
 
 	import sys
-	print sys.args.name
+	print sys.args['name']
 
 Or **prettier:**
 
-	import sys.args as args
-	print args.name
+	import sys.args as arg
+	print args['name']
     
