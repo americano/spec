@@ -10,17 +10,17 @@ Parse argument **via:**
 	print sys.arg['name']
 
 So it would return if a `-name` flag was passed or not, and any text after it before the next flag
----
-Or:
+
+###Or:
 
 	import sys
 	print args[2]
 
-Which prints the 3rd arguement, an arguement delimiter via a space
----
-Or:
+Which prints the 3rd arguement, an argument delimiter via a space
+
+###Or:
 
 	import sys
 	print sys.argRaw
 
-Which is a string of all of the arguements passed, as they were passed
+Which is a string of all of the arguments passed, as they were passed
