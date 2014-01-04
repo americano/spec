@@ -16,7 +16,7 @@ So it would return if a `-name` flag was passed or not, and any text after it be
 	import sys
 	print args[2]
 
-Which prints the 3rd arguement, an argument delimiter via a space
+Which prints the 3rd argument, an argument delimiter via a space
 
 ###Or:
 
