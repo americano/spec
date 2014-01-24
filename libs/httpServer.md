@@ -16,6 +16,7 @@
 ### Static
 
 See:
+
     httpServer.static(port,fileLoc,servLoc);
 
 - `port` - The port for server to use.
