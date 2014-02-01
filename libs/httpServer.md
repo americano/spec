@@ -8,10 +8,20 @@
 
 ### Handler
 
-    httpServer.create(func (req,res){
-        name = req.get("name");
-        res.send(name);
-    });
+    func server(req,res){
+        name = req.get["name"];
+        res.body(name);
+        return(res);
+    };
+    
+    httpServer.create(server,port);
+    
+- `req` - The data sent at request.
+ - `req.path` - String containing requested path.
+ - `req.post` - Array of post request data, where available.
+ - `req.get` - Array of get request data, where available.
+ - `req.put` - Array of put request data, where available.
+ - `req.head` - Array of all request headers.
 
 ### Static
 
