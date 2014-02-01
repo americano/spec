@@ -18,21 +18,21 @@ Non-decimal number
 
 	int integervarthingy = 3
 
-**Note:** "int" isn't neccesarily needed, as it is assumed for any non-decimal number.
+**Note:** `int` isn't neccesarily needed, as it is assumed for any non-decimal number.
 	
 ### Float
 Decimal number
 
 	float floatvarthingy = 3.5
 	
-**Note:** "float" isn't neccesarily needed, as it is assumed for any decimal number.
+**Note:** `float` isn't neccesarily needed, as it is assumed for any decimal number.
 
 ### String
 An alphanumerical string, wrapped in phrase marks.
 
 	str stringvarthingy = "Stringy Thingy" 
     
-**Note:** "str" isn't neccesarily needed, as it is assumed, based on "".
+**Note:** `str` isn't neccesarily needed, as it is assumed, based on "".
 	
 ### Array
 A basic array.
@@ -41,7 +41,7 @@ A basic array.
 	
 The array isn't singularly typed: an array can hold multiple data types.
 
-**Note:** "arr" isn't neccesarily needed, as it is assumed, based on [].
+**Note:** `arr` isn't neccesarily needed, as it is assumed, based on [].
 
 ## Functions and Core procedures
 
@@ -62,7 +62,7 @@ A basic function.
     	print("Hi")
     	return s
 
-**Note:** "func" isn't neccesarily needed, as it is assumed, based on name and brackets.
+**Note:** `func` isn't neccesarily needed, as it is assumed, based on name and brackets.
 
 ### Execute a function
 Run a function
