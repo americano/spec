@@ -17,23 +17,31 @@ The specification within this document has a relevant `README.md` for informatio
 Non-decimal number
 
 	int integervarthingy = 3
+
+**Note:** "int" isn't neccesarily needed, as it is assumed for any non-decimal number.
 	
 ### Float
 Decimal number
 
 	float floatvarthingy = 3.5
 	
+**Note:** "float" isn't neccesarily needed, as it is assumed for any decimal number.
+
 ### String
 An alphanumerical string, wrapped in phrase marks.
 
 	str stringvarthingy = "Stringy Thingy" 
+    
+**Note:** "str" isn't neccesarily needed, as it is assumed, based on "".
 	
 ### Array
 A basic array.
 
-	int[] arrayvarthingy = [1,2,3,4,5]
+	arr arrayvarthingy = [1,"Test",3,4,5]
 	
-The array is singularly typed: an array of just int's, just str's, etc.
+The array isn't singularly typed: an array can hold multiple data types.
+
+**Note:** "arr" isn't neccesarily needed, as it is assumed, based on [].
 
 ## Functions and Core procedures
 
@@ -42,7 +50,7 @@ A basic function.
 
 **Declare w/ braces:**
 
-    str func myFunction(str s, int var){
+    func myFunction(s,var){
     	print("Hi");
     	return s;
     }
@@ -50,11 +58,12 @@ A basic function.
 
 **Declare w/ cleanliness:**
 
-    str func myFunction(str "lol", int var)
+    func myFunction(lol, var)
     	print("Hi")
     	return s
 
-Note that the type declaration in-front of the function name is the type of variable returned, if none is written then `void` (a returnless function) is assumed. 
+**Note:** "func" isn't neccesarily needed, as it is assumed, based on name and brackets.
+
 ### Execute a function
 Run a function
 
@@ -70,13 +79,13 @@ Run a function
 
 **Declare w/ braces:**
 
-    init MyProcedure {
+    init procedure {
         print("Hi")
     }
 
 **Declare w/ cleanliness:**
 
-    init MyProcedure
+    init procedure
         print("Hi!")
 
 ## Preprocessing
@@ -98,7 +107,7 @@ Eg.:
 
 	#if os.type = "win"
     #	> print "Your OS is rubbish"
-    #elseif os.class = true
+    #elseif os.type = "nix"
     #	> print "Hurray! Nix."
     #else
     #	> print "Compiler is clueless. :( \n At least you aren't using windows."
