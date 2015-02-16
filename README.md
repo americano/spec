@@ -1,4 +1,4 @@
-spec
-----------------------
+Spec
+----
 
-Language Spec of the Americano Language
+Language specification of the Americano Language
